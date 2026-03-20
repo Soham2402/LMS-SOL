@@ -56,3 +56,12 @@ Whenevrr a user starts a new lesson / module a new entry will be created in Less
 >for VideoLessons we can simply calculate the last_timestamp for %
 >for Articcles we can check if the user has scrolled till end
 >This needs to be extinsible in the application level logic
+
+
+# Dal Implementaion
+I will implement a DAL using the repository pattern as it is an industry standard. This dal is 
+not going to be generic and only focus on this project itself as the main goal from my vision 
+would be to easily switch between data sources
+
+I am going to implement a relatively simple DAL with repositories for every single database model. I will for now use a simple json, with the keys as the model name. 
+When the app initializes i will index the json based on the some key (for instance user_id, module_id)
