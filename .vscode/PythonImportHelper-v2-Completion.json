@@ -1,5 +1,105 @@
 [
     {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
         "label": "ABC",
         "importPath": "abc",
         "description": "abc",
@@ -85,6 +185,302 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AdminProfile",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Enrollment",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "InstructorProfile",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "LessonProgress",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleProgress",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentProfile",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Enrollment",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "LessonProgress",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleProgress",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "AdminProfile",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "InstructorProfile",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentProfile",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentProfile",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentPreferences",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "InstructorProfile",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "AdminProfile",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Enrollment",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "LessonProgress",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleProgress",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Enrollment",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "LessonProgress",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleProgress",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleProgress",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
         "documentation": {}
     },
     {
@@ -176,35 +572,131 @@
         "documentation": {}
     },
     {
-        "label": "annotations",
-        "importPath": "__future__",
-        "description": "__future__",
+        "label": "JsonStore",
+        "importPath": "store.json_store",
+        "description": "store.json_store",
         "isExtraImport": true,
-        "detail": "__future__",
+        "detail": "store.json_store",
         "documentation": {}
     },
     {
-        "label": "annotations",
-        "importPath": "__future__",
-        "description": "__future__",
+        "label": "JsonStore",
+        "importPath": "store.json_store",
+        "description": "store.json_store",
         "isExtraImport": true,
-        "detail": "__future__",
+        "detail": "store.json_store",
         "documentation": {}
     },
     {
-        "label": "annotations",
-        "importPath": "__future__",
-        "description": "__future__",
+        "label": "JsonStore",
+        "importPath": "store.json_store",
+        "description": "store.json_store",
         "isExtraImport": true,
-        "detail": "__future__",
+        "detail": "store.json_store",
         "documentation": {}
     },
     {
-        "label": "annotations",
-        "importPath": "__future__",
-        "description": "__future__",
+        "label": "JsonStore",
+        "importPath": "store.json_store",
+        "description": "store.json_store",
         "isExtraImport": true,
-        "detail": "__future__",
+        "detail": "store.json_store",
+        "documentation": {}
+    },
+    {
+        "label": "JsonStore",
+        "importPath": "store.json_store",
+        "description": "store.json_store",
+        "isExtraImport": true,
+        "detail": "store.json_store",
+        "documentation": {}
+    },
+    {
+        "label": "ICourseRepository",
+        "importPath": "dal.abstractdal",
+        "description": "dal.abstractdal",
+        "isExtraImport": true,
+        "detail": "dal.abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "ILessonRepository",
+        "importPath": "dal.abstractdal",
+        "description": "dal.abstractdal",
+        "isExtraImport": true,
+        "detail": "dal.abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "IModuleRepository",
+        "importPath": "dal.abstractdal",
+        "description": "dal.abstractdal",
+        "isExtraImport": true,
+        "detail": "dal.abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "IEnrollmentRepository",
+        "importPath": "dal.abstractdal",
+        "description": "dal.abstractdal",
+        "isExtraImport": true,
+        "detail": "dal.abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "ILessonProgressRepository",
+        "importPath": "dal.abstractdal",
+        "description": "dal.abstractdal",
+        "isExtraImport": true,
+        "detail": "dal.abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "IModuleProgressRepository",
+        "importPath": "dal.abstractdal",
+        "description": "dal.abstractdal",
+        "isExtraImport": true,
+        "detail": "dal.abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "IAdminProfileRepository",
+        "importPath": "dal.abstractdal",
+        "description": "dal.abstractdal",
+        "isExtraImport": true,
+        "detail": "dal.abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "IInstructorProfileRepository",
+        "importPath": "dal.abstractdal",
+        "description": "dal.abstractdal",
+        "isExtraImport": true,
+        "detail": "dal.abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "IStudentProfileRepository",
+        "importPath": "dal.abstractdal",
+        "description": "dal.abstractdal",
+        "isExtraImport": true,
+        "detail": "dal.abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "IUserRepository",
+        "importPath": "dal.abstractdal",
+        "description": "dal.abstractdal",
+        "isExtraImport": true,
+        "detail": "dal.abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
@@ -213,6 +705,23 @@
         "description": "dataclasses",
         "isExtraImport": true,
         "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "fcntl",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fcntl",
+        "description": "fcntl",
+        "detail": "fcntl",
         "documentation": {}
     },
     {
@@ -225,11 +734,320 @@
         "documentation": {}
     },
     {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "DataAccessLayer",
+        "importPath": "dal.dalmain",
+        "description": "dal.dalmain",
+        "isExtraImport": true,
+        "detail": "dal.dalmain",
+        "documentation": {}
+    },
+    {
+        "label": "DataAccessLayer",
+        "importPath": "dal.dalmain",
+        "description": "dal.dalmain",
+        "isExtraImport": true,
+        "detail": "dal.dalmain",
+        "documentation": {}
+    },
+    {
+        "label": "DataAccessLayer",
+        "importPath": "dal.dalmain",
+        "description": "dal.dalmain",
+        "isExtraImport": true,
+        "detail": "dal.dalmain",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleProgressCalculator",
+        "importPath": "progress_calculators",
+        "description": "progress_calculators",
+        "isExtraImport": true,
+        "detail": "progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "QuizProgressCalculator",
+        "importPath": "progress_calculators",
+        "description": "progress_calculators",
+        "isExtraImport": true,
+        "detail": "progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "VideoProgressCalculator",
+        "importPath": "progress_calculators",
+        "description": "progress_calculators",
+        "isExtraImport": true,
+        "detail": "progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "get_calculator",
+        "importPath": "progress_calculators",
+        "description": "progress_calculators",
+        "isExtraImport": true,
+        "detail": "progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "get_calculator",
+        "importPath": "progress_calculators",
+        "description": "progress_calculators",
+        "isExtraImport": true,
+        "detail": "progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "recalculate_course_progress",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "recalculate_progress_from_lesson",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"lms\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"lms\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"lms\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"lms\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"lms\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.bin.activate_this",
         "documentation": {}
     },
     {
@@ -318,7 +1136,7 @@
         "kind": 6,
         "importPath": "dal.abstractdal",
         "description": "dal.abstractdal",
-        "peekOfCode": "class IModuleProgressRepository(ABC):\n    @abstractmethod\n    def get_by_id(self, progress_id: str) -> Optional[ModuleProgress]: ...\n    @abstractmethod\n    def get_by_user_and_module(self, user_id: str,\n                               module_id: str) -> Optional[ModuleProgress]: ...\n    @abstractmethod\n    def list_by_user_and_course(self, user_id: str,\n                                course_id: str) -> List[ModuleProgress]: ...",
+        "peekOfCode": "class IModuleProgressRepository(ABC):\n    @abstractmethod\n    def get_by_id(self, progress_id: str) -> Optional[ModuleProgress]: ...\n    @abstractmethod\n    def get_by_user_and_module(self, user_id: str,\n                               module_id: str) -> Optional[ModuleProgress]: ...\n    @abstractmethod\n    def list_by_user_and_course(self, user_id: str,\n                                course_id: str) -> List[ModuleProgress]: ...\n    @abstractmethod",
         "detail": "dal.abstractdal",
         "documentation": {}
     },
@@ -561,17 +1379,188 @@
         "kind": 6,
         "importPath": "store.json_store",
         "description": "store.json_store",
-        "peekOfCode": "class JsonStore:\n    \"\"\"\n    Single source of truth for the in-memory data.\n    Attributes are plain dicts indexed by primary key (_id)\n    or by common foreign-key lookups, so every repository\n    operation is an O(1) or O(n-results) lookup.\n    \"\"\"\n    def __init__(self, path: str | Path) -> None:\n        raw = json.loads(Path(path).read_text())\n        self._build_indexes(raw)",
+        "peekOfCode": "class JsonStore:\n    \"\"\"\n    Single source of truth for the in-memory data.\n    Attributes are plain dicts indexed by primary key (_id)\n    or by common foreign-key lookups, so every repository\n    operation is an O(1) or O(n-results) lookup.\n    \"\"\"\n    def __init__(self, path: str | Path) -> None:\n        self._path = Path(path)\n        self._lock = threading.Lock()",
         "detail": "store.json_store",
         "documentation": {}
     },
     {
-        "label": "main",
+        "label": "TestUpsertLessonProgress",
+        "kind": 6,
+        "importPath": "tests.test_lesson_progress_endpoint",
+        "description": "tests.test_lesson_progress_endpoint",
+        "peekOfCode": "class TestUpsertLessonProgress:\n    def test_create_video_progress(\n        self, client, mock_data_path,\n    ):\n        lesson = _find_video_lesson(mock_data_path)\n        if lesson is None:\n            pytest.skip(\"No VideoLesson in enrolled course\")\n        enroll = _first_enrollment(mock_data_path)\n        resp = client.post(\"/progress/lesson\", json={\n            \"user_id\": enroll[\"user_id\"],",
+        "detail": "tests.test_lesson_progress_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "TestCascadeOnCompletion",
+        "kind": 6,
+        "importPath": "tests.test_lesson_progress_endpoint",
+        "description": "tests.test_lesson_progress_endpoint",
+        "peekOfCode": "class TestCascadeOnCompletion:\n    def test_no_cascade_on_partial_progress(\n        self, client, mock_data_path,\n    ):\n        lesson = _find_video_lesson(mock_data_path)\n        if lesson is None:\n            pytest.skip(\"No VideoLesson in enrolled course\")\n        enroll = _first_enrollment(mock_data_path)\n        duration = lesson[\"meta_data\"].get(\"duration\", 100)\n        before = client.get(",
+        "detail": "tests.test_lesson_progress_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "mock_data_path",
         "kind": 2,
+        "importPath": "tests.test_lesson_progress_endpoint",
+        "description": "tests.test_lesson_progress_endpoint",
+        "peekOfCode": "def mock_data_path():\n    \"\"\"\n    Create a temp copy of mock_data.json so tests don't mutate\n    the real file.  Yields the temp path, cleans up after.\n    \"\"\"\n    src = Path(__file__).resolve().parent.parent / \"mock_data.json\"\n    tmp = tempfile.NamedTemporaryFile(\n        suffix=\".json\", delete=False,\n    )\n    shutil.copy(src, tmp.name)",
+        "detail": "tests.test_lesson_progress_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 2,
+        "importPath": "tests.test_lesson_progress_endpoint",
+        "description": "tests.test_lesson_progress_endpoint",
+        "peekOfCode": "def client(mock_data_path):\n    \"\"\"\n    FastAPI TestClient wired to a DAL backed by the temp JSON.\n    \"\"\"\n    store = JsonStore(path=mock_data_path)\n    dal = DataAccessLayer.from_json(store=store)\n    app.state.dal = dal\n    return TestClient(app)\ndef _first_enrollment(mock_data_path: str) -> dict:\n    \"\"\"Return the first enrollment from the mock data.\"\"\"",
+        "detail": "tests.test_lesson_progress_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "TestVideoProgressCalculator",
+        "kind": 6,
+        "importPath": "tests.test_progress_calculators",
+        "description": "tests.test_progress_calculators",
+        "peekOfCode": "class TestVideoProgressCalculator:\n    def setup_method(self):\n        self.calc = VideoProgressCalculator()\n    def test_partial_progress(self):\n        lesson = _make_lesson(meta_data={\"duration\": 100})\n        percent, status = self.calc.calculate(\n            lesson, time_spent=30,\n        )\n        assert percent == 30.0\n        assert status == \"in_progress\"",
+        "detail": "tests.test_progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "TestArticleProgressCalculator",
+        "kind": 6,
+        "importPath": "tests.test_progress_calculators",
+        "description": "tests.test_progress_calculators",
+        "peekOfCode": "class TestArticleProgressCalculator:\n    def setup_method(self):\n        self.calc = ArticleProgressCalculator()\n    def test_partial_progress(self):\n        lesson = _make_lesson(lesson_type=\"ArticleLesson\")\n        percent, status = self.calc.calculate(\n            lesson, progress_percent=45.0,\n        )\n        assert percent == 45.0\n        assert status == \"in_progress\"",
+        "detail": "tests.test_progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "TestQuizProgressCalculator",
+        "kind": 6,
+        "importPath": "tests.test_progress_calculators",
+        "description": "tests.test_progress_calculators",
+        "peekOfCode": "class TestQuizProgressCalculator:\n    def setup_method(self):\n        self.calc = QuizProgressCalculator()\n    def test_completed(self):\n        lesson = _make_lesson(lesson_type=\"QuizLesson\")\n        percent, status = self.calc.calculate(\n            lesson, is_completed=True,\n        )\n        assert percent == 100.0\n        assert status == \"completed\"",
+        "detail": "tests.test_progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "TestGetCalculator",
+        "kind": 6,
+        "importPath": "tests.test_progress_calculators",
+        "description": "tests.test_progress_calculators",
+        "peekOfCode": "class TestGetCalculator:\n    def test_returns_video_calculator(self):\n        calc = get_calculator(\"VideoLesson\")\n        assert isinstance(calc, VideoProgressCalculator)\n    def test_returns_article_calculator(self):\n        calc = get_calculator(\"ArticleLesson\")\n        assert isinstance(calc, ArticleProgressCalculator)\n    def test_returns_quiz_calculator(self):\n        calc = get_calculator(\"QuizLesson\")\n        assert isinstance(calc, QuizProgressCalculator)",
+        "detail": "tests.test_progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "EnrollRequest",
+        "kind": 6,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def main():\n    print(\"Hello from lms!\")\nif __name__ == \"__main__\":\n    main()",
+        "peekOfCode": "class EnrollRequest(BaseModel):\n    \"\"\"Body for POST /enrollments.\"\"\"\n    user_id: str\n    course_id: str\nclass LessonProgressRequest(BaseModel):\n    \"\"\"Body for POST /progress/lesson.\"\"\"\n    user_id: str\n    course_id: str\n    module_id: str\n    lesson_id: str",
         "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "LessonProgressRequest",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class LessonProgressRequest(BaseModel):\n    \"\"\"Body for POST /progress/lesson.\"\"\"\n    user_id: str\n    course_id: str\n    module_id: str\n    lesson_id: str\n    progress_percent: float | None = None\n    time_spent: float | None = None\n    is_completed: bool | None = None\n    last_position: float | None = None",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleProgressRequest",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class ModuleProgressRequest(BaseModel):\n    \"\"\"Body for POST /progress/module.\"\"\"\n    user_id: str\n    course_id: str\n    module_id: str\n    completed_lessons: int = 0\n    total_lessons: int = 0\n    progress_percent: float = 0.0\n    status: str = \"not_started\"\n# ADDED this function here to avoid circualr import, should ideally create a helper class/file",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI(lifespan=lifespan)\n@app.get(\"/\")\nasync def root():\n    return {\"message\": \"Hello, World!\"}\n@app.post(\"/enrollments\", status_code=201)\nasync def create_enrollment(body: EnrollRequest, request: Request):\n    \"\"\"Enroll a user in a course.\"\"\"\n    # we can do this using dependency injection too but for now let it be\n    dal = _get_dal(request)\n    if not dal.users.get_by_id(body.user_id):",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "LessonProgressCalculator",
+        "kind": 6,
+        "importPath": "progress_calculators",
+        "description": "progress_calculators",
+        "peekOfCode": "class LessonProgressCalculator(ABC):\n    \"\"\"\n    Base class for lesson progress calculators.\n    Subclasses implement `calculate` to derive progress_percent and status\n    from the lesson metadata and type-specific request fields.\n    \"\"\"\n    @abstractmethod\n    def calculate(self, lesson: Lesson, **kwargs) -> tuple[float, str]:\n        \"\"\"\n        Calculate progress percent and status for a lesson.",
+        "detail": "progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "VideoProgressCalculator",
+        "kind": 6,
+        "importPath": "progress_calculators",
+        "description": "progress_calculators",
+        "peekOfCode": "class VideoProgressCalculator(LessonProgressCalculator):\n    \"\"\"Calculates progress from time_spent relative to lesson duration.\"\"\"\n    def calculate(self, lesson: Lesson, **kwargs) -> tuple[float, str]:\n        \"\"\"\n        Args:\n            lesson: Must have meta_data[\"duration\"] (total seconds).\n            **kwargs: Expects time_spent (float, seconds watched).\n        Returns:\n            (progress_percent, status) based on watch time vs duration.\n        Raises:",
+        "detail": "progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleProgressCalculator",
+        "kind": 6,
+        "importPath": "progress_calculators",
+        "description": "progress_calculators",
+        "peekOfCode": "class ArticleProgressCalculator(LessonProgressCalculator):\n    \"\"\"Accepts a progress_percent value directly from the client.\"\"\"\n    def calculate(self, lesson: Lesson, **kwargs) -> tuple[float, str]:\n        \"\"\"\n        Args:\n            lesson: Not used, present for interface consistency.\n            **kwargs: Expects progress_percent (float, 0-100).\n        Returns:\n            (progress_percent, status) clamped to 0-100.\n        Raises:",
+        "detail": "progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "QuizProgressCalculator",
+        "kind": 6,
+        "importPath": "progress_calculators",
+        "description": "progress_calculators",
+        "peekOfCode": "class QuizProgressCalculator(LessonProgressCalculator):\n    \"\"\"Binary completion: either 0% or 100%.\"\"\"\n    def calculate(self, lesson: Lesson, **kwargs) -> tuple[float, str]:\n        \"\"\"\n        Args:\n            lesson: Not used, present for interface consistency.\n            **kwargs: Expects is_completed (bool).\n        Returns:\n            (100.0, \"completed\") or (0.0, \"not_started\").\n        Raises:",
+        "detail": "progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "get_calculator",
+        "kind": 2,
+        "importPath": "progress_calculators",
+        "description": "progress_calculators",
+        "peekOfCode": "def get_calculator(lesson_type: str) -> LessonProgressCalculator:\n    \"\"\"\n    Return the calculator for the given lesson type.\n    Args:\n        lesson_type: One of the registered lesson type strings.\n    Raises:\n        ValueError: If the lesson type has no registered calculator.\n    \"\"\"\n    calculator = _CALCULATORS.get(lesson_type)\n    if calculator is None:",
+        "detail": "progress_calculators",
+        "documentation": {}
+    },
+    {
+        "label": "recalculate_module_progress",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def recalculate_module_progress(\n    dal: DataAccessLayer,\n    user_id: str,\n    course_id: str,\n    module_id: str,\n) -> ModuleProgress:\n    \"\"\"\n    Recalculate module progress from the user's lesson progress records.\n    Counts completed lessons in the module, computes the percentage,\n    and either updates the existing module progress or creates a new one.",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "recalculate_course_progress",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def recalculate_course_progress(\n    dal: DataAccessLayer,\n    user_id: str,\n    course_id: str,\n) -> None:\n    \"\"\"\n    Recalculate course-level progress on the enrollment record.\n    Counts all completed lessons across every module in the course and\n    updates the enrollment's progress_percent and completed_lessons fields.\n    Args:",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "recalculate_progress_from_lesson",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def recalculate_progress_from_lesson(\n    dal: DataAccessLayer,\n    user_id: str,\n    course_id: str,\n    module_id: str,\n) -> ModuleProgress:\n    \"\"\"\n    Full cascade: lesson → module → course.\n    Call this after creating or updating a lesson progress record to\n    propagate the change upward through the entire progress tree.",
+        "detail": "utils",
         "documentation": {}
     }
 ]

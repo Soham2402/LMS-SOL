@@ -65,6 +65,9 @@ class JsonLessonProgressRepository(ILessonProgressRepository):
     def create(self, progress: LessonProgress) -> LessonProgress:
         return self._store.add_lesson_progress(asdict(progress))
 
+    def update(self, progress: LessonProgress) -> LessonProgress:
+        return self._store.update_lesson_progress(asdict(progress))
+
 
 class JsonModuleProgressRepository(IModuleProgressRepository):
 

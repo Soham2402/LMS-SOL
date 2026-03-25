@@ -130,6 +130,9 @@ class ILessonProgressRepository(ABC):
     @abstractmethod
     def create(self, progress: LessonProgress) -> LessonProgress: ...
 
+    @abstractmethod
+    def update(self, progress: LessonProgress) -> LessonProgress: ...
+
 
 class IModuleProgressRepository(ABC):
 

@@ -238,6 +238,11 @@ class JsonStore:
         self._add_record("ModuleProgress", data)
         return self.module_progress_by_id[data["_id"]]
 
+    def update_lesson_progress(self, data: dict[str, Any]) -> LessonProgress:
+        """Update an existing lesson progress record and return the indexed dataclass."""
+        self._update_record("LessonProgress", data)
+        return self.lesson_progress_by_id[data["_id"]]
+
     def update_enrollment(self, data: dict[str, Any]) -> Enrollment:
         """Update an existing enrollment record and return the indexed dataclass."""
         self._update_record("Enrollment", data)

@@ -8,6 +8,7 @@ from pydantic import BaseModel
 
 from dal.dalmain import DataAccessLayer
 from models.models import Enrollment, LessonProgress, ModuleProgress
+from progress_calculators import get_calculator
 from store.json_store import JsonStore
 from utils import recalculate_course_progress, recalculate_progress_from_lesson
 
@@ -24,8 +25,9 @@ class LessonProgressRequest(BaseModel):
     course_id: str
     module_id: str
     lesson_id: str
-    status: str = "not_started"
-    progress_percent: float = 0.0
+    progress_percent: float | None = None
+    time_spent: float | None = None
+    is_completed: bool | None = None
     last_position: float | None = None
 
 
@@ -39,7 +41,7 @@ class ModuleProgressRequest(BaseModel):
     progress_percent: float = 0.0
     status: str = "not_started"
 
-
+# ADDED this function here to avoid circualr import, should ideally create a helper class/file
 def _now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
@@ -117,11 +119,11 @@ async def list_user_enrollments(user_id: str, request: Request):
     return [asdict(e) for e in enrollments]
 
 
-@app.post("/progress/lesson", status_code=201)
-async def create_lesson_progress(
+@app.post("/progress/lesson")
+async def upsert_lesson_progress(
     body: LessonProgressRequest, request: Request,
 ):
-    """Create a lesson progress record for a user."""
+    """Create or update a lesson progress record for a user."""
     dal = _get_dal(request)
 
     enrolled = dal.enrollments.get_by_user_and_course(
@@ -133,43 +135,58 @@ async def create_lesson_progress(
             detail="User is not enrolled in this course",
         )
 
-    if not dal.lessons.get_by_id(body.lesson_id):
+    lesson = dal.lessons.get_by_id(body.lesson_id)
+    if not lesson:
         raise HTTPException(
             status_code=404, detail="Lesson not found",
         )
 
+    try:
+        calculator = get_calculator(lesson.lesson_type)
+        progress_percent, status = calculator.calculate(
+            lesson,
+            progress_percent=body.progress_percent,
+            time_spent=body.time_spent,
+            is_completed=body.is_completed,
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=422, detail=str(exc))
+
+    now = _now_iso()
+    completed_at = now if status == "completed" else None
+
     existing = dal.lesson_progress.get_by_user_and_lesson(
         body.user_id, body.lesson_id,
     )
+
     if existing:
-        raise HTTPException(
-            status_code=409,
-            detail="Lesson progress already exists",
+        existing.status = status
+        existing.progress_percent = progress_percent
+        existing.last_position = body.last_position
+        existing.completed_at = completed_at or existing.completed_at
+        existing.updated_at = now
+        result = dal.lesson_progress.update(existing)
+    else:
+        progress = LessonProgress(
+            _id=f"lp_{uuid4().hex[:8]}",
+            user_id=body.user_id,
+            course_id=body.course_id,
+            module_id=body.module_id,
+            lesson_id=body.lesson_id,
+            status=status,
+            progress_percent=progress_percent,
+            last_position=body.last_position,
+            completed_at=completed_at,
+            updated_at=now,
+        )
+        result = dal.lesson_progress.create(progress)
+
+    if status == "completed":
+        recalculate_progress_from_lesson(
+            dal, body.user_id, body.course_id, body.module_id,
         )
 
-    now = _now_iso()
-    completed_at = now if body.status == "completed" else None
-
-    progress = LessonProgress(
-        _id=f"lp_{uuid4().hex[:8]}",
-        user_id=body.user_id,
-        course_id=body.course_id,
-        module_id=body.module_id,
-        lesson_id=body.lesson_id,
-        status=body.status,
-        progress_percent=body.progress_percent,
-        last_position=body.last_position,
-        completed_at=completed_at,
-        updated_at=now,
-    )
-
-    created = dal.lesson_progress.create(progress)
-
-    recalculate_progress_from_lesson(
-        dal, body.user_id, body.course_id, body.module_id,
-    )
-
-    return asdict(created)
+    return asdict(result)
 
 
 @app.get("/progress/lesson/{user_id}/{course_id}")

@@ -8,9 +8,6 @@ from models.models import ModuleProgress
 def _now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
-def _get_dal(request: Request) -> DataAccessLayer:
-    return request.app.state.dal
-
 
 def _determine_status(completed: int, total: int) -> str:
     """Return a progress status string based on completion counts."""
