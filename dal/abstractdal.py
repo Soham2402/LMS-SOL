@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional
 
-from .models import (AdminProfile, Course, Enrollment, InstructorProfile,
+from ..models import (AdminProfile, Course, Enrollment, InstructorProfile,
                      Lesson, LessonProgress, Module, ModuleProgress,
                      StudentProfile, User)
 

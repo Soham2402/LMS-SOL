@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Optional
 
-from ..abstractdal import (IAdminProfileRepository,
+from ..dal.abstractdal import (IAdminProfileRepository,
                            IInstructorProfileRepository,
                            IStudentProfileRepository, IUserRepository)
 from ..models import AdminProfile, InstructorProfile, StudentProfile, User

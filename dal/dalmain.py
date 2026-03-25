@@ -1,33 +1,21 @@
 # We use composition to build a data access layer using factory pattern
-from .abstractdal import (
-    IUserRepository,
-    IStudentProfileRepository,
-    IInstructorProfileRepository,
-    IAdminProfileRepository,
-    ICourseRepository,
-    IModuleRepository,
-    ILessonRepository,
-    IEnrollmentRepository,
-    ILessonProgressRepository,
-    IModuleProgressRepository,
-)
+from jsonrepo.coursejsonrepo import (JsonCourseRepository,
+                                     JsonLessonRepository,
+                                     JsonModuleRepository)
+from jsonrepo.progressjsonrepo import (JsonEnrollmentRepository,
+                                       JsonLessonProgressRepository,
+                                       JsonModuleProgressRepository)
+from jsonrepo.userjsonrepo import (JsonAdminProfileRepository,
+                                   JsonInstructorProfileRepository,
+                                   JsonStudentProfileRepository,
+                                   JsonUserRepository)
+from store.json_store import JsonStore
 
-from jsonrepo.coursejsonrepo import (
-    JsonCourseRepository,
-    JsonModuleRepository,
-    JsonLessonRepository,
-)
-from jsonrepo.progressjsonrepo import (
-    JsonEnrollmentRepository,
-    JsonLessonProgressRepository,
-    JsonModuleProgressRepository,
-)
-from jsonrepo.userjsonrepo import (
-    JsonUserRepository,
-    JsonStudentProfileRepository,
-    JsonInstructorProfileRepository,
-    JsonAdminProfileRepository,
-)
+from .abstractdal import (IAdminProfileRepository, ICourseRepository,
+                          IEnrollmentRepository, IInstructorProfileRepository,
+                          ILessonProgressRepository, ILessonRepository,
+                          IModuleProgressRepository, IModuleRepository,
+                          IStudentProfileRepository, IUserRepository)
 
 
 class DataAccessLayer:

@@ -65,3 +65,8 @@ would be to easily switch between data sources
 
 I am going to implement a relatively simple DAL with repositories for every single database model. I will for now use a simple json, with the keys as the model name. 
 When the app initializes i will index the json based on the some key (for instance user_id, module_id)
+
+
+
+# My focus here in this assignment is more towards abstraction and extensibility also am over engineering it on purpose as i found the json store idea as a very good practical example of how
+indexing works and can be an overhead in systems 

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Optional
 
-from ..abstractdal import (ICourseRepository, ILessonRepository,
+from ..dal.abstractdal import (ICourseRepository, ILessonRepository,
                            IModuleRepository)
 from ..models import Course, Lesson, Module
 from ..store.json_store import JsonStore

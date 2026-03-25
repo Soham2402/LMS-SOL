@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Optional
 
-from ..abstractdal import (
+from ..dal.abstractdal import (
     IEnrollmentRepository,
     ILessonProgressRepository,
     IModuleProgressRepository,
