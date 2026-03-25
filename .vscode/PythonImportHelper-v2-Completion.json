@@ -1,0 +1,569 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "JsonCourseRepository",
+        "importPath": "jsonrepo.coursejsonrepo",
+        "description": "jsonrepo.coursejsonrepo",
+        "isExtraImport": true,
+        "detail": "jsonrepo.coursejsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonModuleRepository",
+        "importPath": "jsonrepo.coursejsonrepo",
+        "description": "jsonrepo.coursejsonrepo",
+        "isExtraImport": true,
+        "detail": "jsonrepo.coursejsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonLessonRepository",
+        "importPath": "jsonrepo.coursejsonrepo",
+        "description": "jsonrepo.coursejsonrepo",
+        "isExtraImport": true,
+        "detail": "jsonrepo.coursejsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonEnrollmentRepository",
+        "importPath": "jsonrepo.progressjsonrepo",
+        "description": "jsonrepo.progressjsonrepo",
+        "isExtraImport": true,
+        "detail": "jsonrepo.progressjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonLessonProgressRepository",
+        "importPath": "jsonrepo.progressjsonrepo",
+        "description": "jsonrepo.progressjsonrepo",
+        "isExtraImport": true,
+        "detail": "jsonrepo.progressjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonModuleProgressRepository",
+        "importPath": "jsonrepo.progressjsonrepo",
+        "description": "jsonrepo.progressjsonrepo",
+        "isExtraImport": true,
+        "detail": "jsonrepo.progressjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonUserRepository",
+        "importPath": "jsonrepo.userjsonrepo",
+        "description": "jsonrepo.userjsonrepo",
+        "isExtraImport": true,
+        "detail": "jsonrepo.userjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonStudentProfileRepository",
+        "importPath": "jsonrepo.userjsonrepo",
+        "description": "jsonrepo.userjsonrepo",
+        "isExtraImport": true,
+        "detail": "jsonrepo.userjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonInstructorProfileRepository",
+        "importPath": "jsonrepo.userjsonrepo",
+        "description": "jsonrepo.userjsonrepo",
+        "isExtraImport": true,
+        "detail": "jsonrepo.userjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonAdminProfileRepository",
+        "importPath": "jsonrepo.userjsonrepo",
+        "description": "jsonrepo.userjsonrepo",
+        "isExtraImport": true,
+        "detail": "jsonrepo.userjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "JsonCourseRepository",
+        "kind": 6,
+        "importPath": "jsonrepo.coursejsonrepo",
+        "description": "jsonrepo.coursejsonrepo",
+        "peekOfCode": "class JsonCourseRepository(ICourseRepository):\n    def __init__(self, store: JsonStore) -> None:\n        self._store = store\n    def get_by_id(self, course_id: str) -> Optional[Course]:\n        return self._store.courses_by_id.get(course_id)\n    def list_all(self) -> list[Course]:\n        return list(self._store.courses_by_id.values())\n    def list_by_author(self, author_id: str) -> list[Course]:\n        return [c for c in self._store.courses_by_id.values() if c.author_id == author_id]\nclass JsonModuleRepository(IModuleRepository):",
+        "detail": "jsonrepo.coursejsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonModuleRepository",
+        "kind": 6,
+        "importPath": "jsonrepo.coursejsonrepo",
+        "description": "jsonrepo.coursejsonrepo",
+        "peekOfCode": "class JsonModuleRepository(IModuleRepository):\n    def __init__(self, store: JsonStore) -> None:\n        self._store = store\n    def get_by_id(self, module_id: str) -> Optional[Module]:\n        return self._store.modules_by_id.get(module_id)\n    def list_by_course(self, course_id: str) -> list[Module]:\n        modules = self._store.modules_by_course_id.get(course_id, [])\n        return sorted(modules, key=lambda m: m.order)\nclass JsonLessonRepository(ILessonRepository):\n    def __init__(self, store: JsonStore) -> None:",
+        "detail": "jsonrepo.coursejsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonLessonRepository",
+        "kind": 6,
+        "importPath": "jsonrepo.coursejsonrepo",
+        "description": "jsonrepo.coursejsonrepo",
+        "peekOfCode": "class JsonLessonRepository(ILessonRepository):\n    def __init__(self, store: JsonStore) -> None:\n        self._store = store\n    def get_by_id(self, lesson_id: str) -> Optional[Lesson]:\n        return self._store.lessons_by_id.get(lesson_id)\n    def list_by_module(self, module_id: str) -> list[Lesson]:\n        lessons = self._store.lessons_by_module_id.get(module_id, [])\n        return sorted(lessons, key=lambda l: l.order)\n    def list_by_course(self, course_id: str) -> list[Lesson]:\n        lessons = self._store.lessons_by_course_id.get(course_id, [])",
+        "detail": "jsonrepo.coursejsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonEnrollmentRepository",
+        "kind": 6,
+        "importPath": "jsonrepo.progressjsonrepo",
+        "description": "jsonrepo.progressjsonrepo",
+        "peekOfCode": "class JsonEnrollmentRepository(IEnrollmentRepository):\n    def __init__(self, store: JsonStore) -> None:\n        self._store = store\n    def get_by_id(self, enrollment_id: str) -> Optional[Enrollment]:\n        return self._store.enrollments_by_id.get(enrollment_id)\n    def get_by_user_and_course(\n        self, user_id: str, course_id: str\n    ) -> Optional[Enrollment]:\n        user_enrollments = self._store.enrollments_by_user_id.get(user_id, [])\n        return next((e for e in user_enrollments if e.course_id == course_id), None)",
+        "detail": "jsonrepo.progressjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonLessonProgressRepository",
+        "kind": 6,
+        "importPath": "jsonrepo.progressjsonrepo",
+        "description": "jsonrepo.progressjsonrepo",
+        "peekOfCode": "class JsonLessonProgressRepository(ILessonProgressRepository):\n    def __init__(self, store: JsonStore) -> None:\n        self._store = store\n    def get_by_id(self, progress_id: str) -> Optional[LessonProgress]:\n        return self._store.lesson_progress_by_id.get(progress_id)\n    def get_by_user_and_lesson(\n        self, user_id: str, lesson_id: str\n    ) -> Optional[LessonProgress]:\n        return self._store.lesson_progress_by_user_lesson.get((user_id, lesson_id))\n    def list_by_user_and_course(",
+        "detail": "jsonrepo.progressjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonModuleProgressRepository",
+        "kind": 6,
+        "importPath": "jsonrepo.progressjsonrepo",
+        "description": "jsonrepo.progressjsonrepo",
+        "peekOfCode": "class JsonModuleProgressRepository(IModuleProgressRepository):\n    def __init__(self, store: JsonStore) -> None:\n        self._store = store\n    def get_by_id(self, progress_id: str) -> Optional[ModuleProgress]:\n        return self._store.module_progress_by_id.get(progress_id)\n    def get_by_user_and_module(\n        self, user_id: str, module_id: str\n    ) -> Optional[ModuleProgress]:\n        return self._store.module_progress_by_user_module.get((user_id, module_id))\n    def list_by_user_and_course(",
+        "detail": "jsonrepo.progressjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonUserRepository",
+        "kind": 6,
+        "importPath": "jsonrepo.userjsonrepo",
+        "description": "jsonrepo.userjsonrepo",
+        "peekOfCode": "class JsonUserRepository(IUserRepository):\n    def __init__(self, store: JsonStore) -> None:\n        self._store = store\n    def get_by_id(self, user_id: str) -> Optional[User]:\n        return self._store.users_by_id.get(user_id)\n    def get_by_email(self, email: str) -> Optional[User]:\n        return self._store.users_by_email.get(email)\n    def get_by_username(self, username: str) -> Optional[User]:\n        return self._store.users_by_username.get(username)\n    def list_all(self) -> list[User]:",
+        "detail": "jsonrepo.userjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonStudentProfileRepository",
+        "kind": 6,
+        "importPath": "jsonrepo.userjsonrepo",
+        "description": "jsonrepo.userjsonrepo",
+        "peekOfCode": "class JsonStudentProfileRepository(IStudentProfileRepository):\n    def __init__(self, store: JsonStore) -> None:\n        self._store = store\n    def get_by_user_id(self, user_id: str) -> Optional[StudentProfile]:\n        return self._store.student_profiles_by_user_id.get(user_id)\n    def list_enrolled_course_ids(self, user_id: str) -> list[str]:\n        profile = self.get_by_user_id(user_id)\n        return profile.enrolled_courses if profile else []\nclass JsonInstructorProfileRepository(IInstructorProfileRepository):\n    def __init__(self, store: JsonStore) -> None:",
+        "detail": "jsonrepo.userjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonInstructorProfileRepository",
+        "kind": 6,
+        "importPath": "jsonrepo.userjsonrepo",
+        "description": "jsonrepo.userjsonrepo",
+        "peekOfCode": "class JsonInstructorProfileRepository(IInstructorProfileRepository):\n    def __init__(self, store: JsonStore) -> None:\n        self._store = store\n    def get_by_user_id(self, user_id: str) -> Optional[InstructorProfile]:\n        return self._store.instructor_profiles_by_user_id.get(user_id)\n    def list_course_ids(self, user_id: str) -> list[str]:\n        profile = self.get_by_user_id(user_id)\n        return profile.courses_created if profile else []\nclass JsonAdminProfileRepository(IAdminProfileRepository):\n    def __init__(self, store: JsonStore) -> None:",
+        "detail": "jsonrepo.userjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonAdminProfileRepository",
+        "kind": 6,
+        "importPath": "jsonrepo.userjsonrepo",
+        "description": "jsonrepo.userjsonrepo",
+        "peekOfCode": "class JsonAdminProfileRepository(IAdminProfileRepository):\n    def __init__(self, store: JsonStore) -> None:\n        self._store = store\n    def get_by_user_id(self, user_id: str) -> Optional[AdminProfile]:\n        return self._store.admin_profiles_by_user_id.get(user_id)\n    def has_permission(self, user_id: str, permission: str) -> bool:\n        profile = self.get_by_user_id(user_id)\n        return permission in profile.permissions if profile else False",
+        "detail": "jsonrepo.userjsonrepo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonStore",
+        "kind": 6,
+        "importPath": "store.json_store",
+        "description": "store.json_store",
+        "peekOfCode": "class JsonStore:\n    \"\"\"\n    Single source of truth for the in-memory data.\n    Attributes are plain dicts indexed by primary key (_id)\n    or by common foreign-key lookups, so every repository\n    operation is an O(1) or O(n-results) lookup.\n    \"\"\"\n    def __init__(self, path: str | Path) -> None:\n        raw = json.loads(Path(path).read_text())\n        self._build_indexes(raw)",
+        "detail": "store.json_store",
+        "documentation": {}
+    },
+    {
+        "label": "IUserRepository",
+        "kind": 6,
+        "importPath": "abstractdal",
+        "description": "abstractdal",
+        "peekOfCode": "class IUserRepository(ABC):\n    @abstractmethod\n    def get_by_id(self, user_id: str) -> Optional[User]: ...\n    @abstractmethod\n    def get_by_email(self, email: str) -> Optional[User]: ...\n    @abstractmethod\n    def get_by_username(self, username: str) -> Optional[User]: ...\n    @abstractmethod\n    def list_all(self) -> List[User]: ...\n    @abstractmethod",
+        "detail": "abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "IStudentProfileRepository",
+        "kind": 6,
+        "importPath": "abstractdal",
+        "description": "abstractdal",
+        "peekOfCode": "class IStudentProfileRepository(ABC):\n    @abstractmethod\n    def get_by_user_id(self, user_id: str) -> Optional[StudentProfile]: ...\n    @abstractmethod\n    def list_enrolled_course_ids(self, user_id: str) -> List[str]: ...\nclass IInstructorProfileRepository(ABC):\n    @abstractmethod\n    def get_by_user_id(self, user_id: str) -> Optional[InstructorProfile]: ...\n    @abstractmethod\n    def list_course_ids(self, user_id: str) -> List[str]: ...",
+        "detail": "abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "IInstructorProfileRepository",
+        "kind": 6,
+        "importPath": "abstractdal",
+        "description": "abstractdal",
+        "peekOfCode": "class IInstructorProfileRepository(ABC):\n    @abstractmethod\n    def get_by_user_id(self, user_id: str) -> Optional[InstructorProfile]: ...\n    @abstractmethod\n    def list_course_ids(self, user_id: str) -> List[str]: ...\nclass IAdminProfileRepository(ABC):\n    @abstractmethod\n    def get_by_user_id(self, user_id: str) -> Optional[AdminProfile]: ...\n    @abstractmethod\n    def has_permission(self, user_id: str, permission: str) -> bool: ...",
+        "detail": "abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "IAdminProfileRepository",
+        "kind": 6,
+        "importPath": "abstractdal",
+        "description": "abstractdal",
+        "peekOfCode": "class IAdminProfileRepository(ABC):\n    @abstractmethod\n    def get_by_user_id(self, user_id: str) -> Optional[AdminProfile]: ...\n    @abstractmethod\n    def has_permission(self, user_id: str, permission: str) -> bool: ...\nclass ICourseRepository(ABC):\n    @abstractmethod\n    def get_by_id(self, course_id: str) -> Optional[Course]: ...\n    @abstractmethod\n    def list_all(self) -> List[Course]: ...",
+        "detail": "abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "ICourseRepository",
+        "kind": 6,
+        "importPath": "abstractdal",
+        "description": "abstractdal",
+        "peekOfCode": "class ICourseRepository(ABC):\n    @abstractmethod\n    def get_by_id(self, course_id: str) -> Optional[Course]: ...\n    @abstractmethod\n    def list_all(self) -> List[Course]: ...\n    @abstractmethod\n    def list_by_author(self, author_id: str) -> List[Course]: ...\nclass IModuleRepository(ABC):\n    @abstractmethod\n    def get_by_id(self, module_id: str) -> Optional[Module]: ...",
+        "detail": "abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "IModuleRepository",
+        "kind": 6,
+        "importPath": "abstractdal",
+        "description": "abstractdal",
+        "peekOfCode": "class IModuleRepository(ABC):\n    @abstractmethod\n    def get_by_id(self, module_id: str) -> Optional[Module]: ...\n    @abstractmethod\n    def list_by_course(self, course_id: str) -> List[Module]: ...\nclass ILessonRepository(ABC):\n    @abstractmethod\n    def get_by_id(self, lesson_id: str) -> Optional[Lesson]: ...\n    @abstractmethod\n    def list_by_module(self, module_id: str) -> List[Lesson]: ...",
+        "detail": "abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "ILessonRepository",
+        "kind": 6,
+        "importPath": "abstractdal",
+        "description": "abstractdal",
+        "peekOfCode": "class ILessonRepository(ABC):\n    @abstractmethod\n    def get_by_id(self, lesson_id: str) -> Optional[Lesson]: ...\n    @abstractmethod\n    def list_by_module(self, module_id: str) -> List[Lesson]: ...\n    @abstractmethod\n    def list_by_course(self, course_id: str) -> List[Lesson]: ...\nclass IEnrollmentRepository(ABC):\n    @abstractmethod\n    def get_by_id(self, enrollment_id: str) -> Optional[Enrollment]: ...",
+        "detail": "abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "IEnrollmentRepository",
+        "kind": 6,
+        "importPath": "abstractdal",
+        "description": "abstractdal",
+        "peekOfCode": "class IEnrollmentRepository(ABC):\n    @abstractmethod\n    def get_by_id(self, enrollment_id: str) -> Optional[Enrollment]: ...\n    @abstractmethod\n    def get_by_user_and_course(self, user_id: str,\n                               course_id: str) -> Optional[Enrollment]: ...\n    @abstractmethod\n    def list_by_user(self, user_id: str) -> List[Enrollment]: ...\n    @abstractmethod\n    def list_by_course(self, course_id: str) -> List[Enrollment]: ...",
+        "detail": "abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "ILessonProgressRepository",
+        "kind": 6,
+        "importPath": "abstractdal",
+        "description": "abstractdal",
+        "peekOfCode": "class ILessonProgressRepository(ABC):\n    @abstractmethod\n    def get_by_id(self, progress_id: str) -> Optional[LessonProgress]: ...\n    @abstractmethod\n    def get_by_user_and_lesson(self, user_id: str,\n                               lesson_id: str) -> Optional[LessonProgress]: ...\n    @abstractmethod\n    def list_by_user_and_course(self, user_id: str,\n                                course_id: str) -> List[LessonProgress]: ...\n    @abstractmethod",
+        "detail": "abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "IModuleProgressRepository",
+        "kind": 6,
+        "importPath": "abstractdal",
+        "description": "abstractdal",
+        "peekOfCode": "class IModuleProgressRepository(ABC):\n    @abstractmethod\n    def get_by_id(self, progress_id: str) -> Optional[ModuleProgress]: ...\n    @abstractmethod\n    def get_by_user_and_module(self, user_id: str,\n                               module_id: str) -> Optional[ModuleProgress]: ...\n    @abstractmethod\n    def list_by_user_and_course(self, user_id: str,\n                                course_id: str) -> List[ModuleProgress]: ...",
+        "detail": "abstractdal",
+        "documentation": {}
+    },
+    {
+        "label": "DataAccessLayer",
+        "kind": 6,
+        "importPath": "dalmain",
+        "description": "dalmain",
+        "peekOfCode": "class DataAccessLayer:\n    \"\"\"\n    Composed facade over all repositories.\n    Constructor accepts interfaces — not concrete classes — so the DAL\n    stays decoupled from any specific storage backend.\n    \"\"\"\n    \"\"\"\n    Usage\n    -----\n        store = JsonStore(\"data.json\")",
+        "detail": "dalmain",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main():\n    print(\"Hello from lms!\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class User:\n    _id: str\n    username: str\n    email: str\n    hashedpassword: str\n    created_on: str\n    is_verified: bool\n    roles: list[UserRole]\n    last_login: str\n    gender: str",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentPreferences",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class StudentPreferences:\n    language: str\n    autoplay: bool\n    playback_speed: float\n@dataclass\nclass StudentProfile:\n    _id: str\n    user_id: str\n    enrolled_courses: list[str]\n    completed_courses: list[str]",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentProfile",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class StudentProfile:\n    _id: str\n    user_id: str\n    enrolled_courses: list[str]\n    completed_courses: list[str]\n    preferences: StudentPreferences\n@dataclass\nclass InstructorProfile:\n    _id: str\n    user_id: str",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "InstructorProfile",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class InstructorProfile:\n    _id: str\n    user_id: str\n    courses_created: list[str]\n    ratings: float\n    total_reviews: int\n    total_courses: int\n@dataclass\nclass AdminProfile:\n    _id: str",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "AdminProfile",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class AdminProfile:\n    _id: str\n    user_id: str\n    permissions: list[str]\n@dataclass\nclass Course:\n    _id: str\n    author_id: str\n    title: str\n    description: str",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Course:\n    _id: str\n    author_id: str\n    title: str\n    description: str\n    modules: list[str]\n    total_lessons: int\n@dataclass\nclass Module:\n    _id: str",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Module:\n    _id: str\n    course_id: str\n    title: str\n    description: str\n    order: int\n    lessons: list[str]\n    total_lessons: int\n@dataclass\nclass Lesson:",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Lesson:\n    _id: str\n    module_id: str\n    course_id: str\n    title: str\n    description: str\n    order: int\n    lesson_type: LessonType\n    content: Optional[str]\n    meta_data: dict[str, Any]",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Enrollment",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Enrollment:\n    _id: str\n    user_id: str\n    course_id: str\n    enrolled_at: str\n    status: EnrollStatus\n    progress_percent: float\n    completed_lessons: int\n    total_lessons: int\n    last_accessed_at: str",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "LessonProgress",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class LessonProgress:\n    _id: str\n    user_id: str\n    course_id: str\n    module_id: str\n    lesson_id: str\n    status: ProgressStatus\n    progress_percent: float\n    last_position: Optional[float]\n    completed_at: Optional[str]",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleProgress",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class ModuleProgress:\n    _id: str\n    user_id: str\n    course_id: str\n    module_id: str\n    completed_lessons: int\n    total_lessons: int\n    progress_percent: float\n    status: ProgressStatus\n    updated_at: str",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "UserRole",
+        "kind": 5,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "UserRole = Literal[\"Student\", \"Instructor\", \"Admin\"]\nLessonType = Literal[\"VideoLesson\", \"ArticleLesson\", \"QuizLesson\"]\nProgressStatus = Literal[\"not_started\", \"in_progress\", \"completed\"]\nEnrollStatus = Literal[\"active\", \"completed\", \"dropped\"]\n@dataclass\nclass User:\n    _id: str\n    username: str\n    email: str\n    hashedpassword: str",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "LessonType",
+        "kind": 5,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "LessonType = Literal[\"VideoLesson\", \"ArticleLesson\", \"QuizLesson\"]\nProgressStatus = Literal[\"not_started\", \"in_progress\", \"completed\"]\nEnrollStatus = Literal[\"active\", \"completed\", \"dropped\"]\n@dataclass\nclass User:\n    _id: str\n    username: str\n    email: str\n    hashedpassword: str\n    created_on: str",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "ProgressStatus",
+        "kind": 5,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "ProgressStatus = Literal[\"not_started\", \"in_progress\", \"completed\"]\nEnrollStatus = Literal[\"active\", \"completed\", \"dropped\"]\n@dataclass\nclass User:\n    _id: str\n    username: str\n    email: str\n    hashedpassword: str\n    created_on: str\n    is_verified: bool",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "EnrollStatus",
+        "kind": 5,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "EnrollStatus = Literal[\"active\", \"completed\", \"dropped\"]\n@dataclass\nclass User:\n    _id: str\n    username: str\n    email: str\n    hashedpassword: str\n    created_on: str\n    is_verified: bool\n    roles: list[UserRole]",
+        "detail": "models",
+        "documentation": {}
+    }
+]

@@ -12,6 +12,23 @@ from .abstractdal import (
     IModuleProgressRepository,
 )
 
+from jsonrepo.coursejsonrepo import (
+    JsonCourseRepository,
+    JsonModuleRepository,
+    JsonLessonRepository,
+)
+from jsonrepo.progressjsonrepo import (
+    JsonEnrollmentRepository,
+    JsonLessonProgressRepository,
+    JsonModuleProgressRepository,
+)
+from jsonrepo.userjsonrepo import (
+    JsonUserRepository,
+    JsonStudentProfileRepository,
+    JsonInstructorProfileRepository,
+    JsonAdminProfileRepository,
+)
+
 
 class DataAccessLayer:
     """
