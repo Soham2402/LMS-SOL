@@ -1,8 +1,10 @@
+import fcntl
 import json
+import threading
 from pathlib import Path
 from typing import Any
 
-from ..models import (
+from models.models import (
     User,
     StudentProfile,
     StudentPreferences,
@@ -75,7 +77,9 @@ class JsonStore:
     """
 
     def __init__(self, path: str | Path) -> None:
-        raw = json.loads(Path(path).read_text())
+        self._path = Path(path)
+        self._lock = threading.Lock()
+        raw = json.loads(self._path.read_text())
         self._build_indexes(raw)
 
     def _build_indexes(self, raw: dict[str, Any]) -> None:
@@ -174,3 +178,72 @@ class JsonStore:
             self.module_progress_by_user_course.setdefault(
                 (mp.user_id, mp.course_id), []
             ).append(mp)
+
+    def _add_record(self, collection_key: str, data: dict[str, Any]) -> None:
+        """
+        Persist a new record to the JSON file and rebuild all indexes.
+
+        Acquires an in-process threading lock and an OS-level exclusive file
+        lock so concurrent requests and processes don't corrupt the file or
+        leave indexes in a half-built state.
+        """
+        with self._lock:
+            with open(self._path, "r+") as f:
+                fcntl.flock(f.fileno(), fcntl.LOCK_EX)
+                try:
+                    raw = json.load(f)
+                    raw[collection_key].append(data)
+                    f.seek(0)
+                    f.truncate()
+                    json.dump(raw, f, indent=2)
+                finally:
+                    fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+            self._build_indexes(raw)
+
+    def _update_record(self, collection_key: str, data: dict[str, Any]) -> None:
+        """
+        Update an existing record in the JSON file by matching _id, then rebuild indexes.
+
+        Same locking strategy as _add_record.
+        """
+        with self._lock:
+            with open(self._path, "r+") as f:
+                fcntl.flock(f.fileno(), fcntl.LOCK_EX)
+                try:
+                    raw = json.load(f)
+                    records = raw[collection_key]
+                    for i, record in enumerate(records):
+                        if record["_id"] == data["_id"]:
+                            records[i] = data
+                            break
+                    f.seek(0)
+                    f.truncate()
+                    json.dump(raw, f, indent=2)
+                finally:
+                    fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+            self._build_indexes(raw)
+
+    def add_enrollment(self, data: dict[str, Any]) -> Enrollment:
+        """Persist a new enrollment and return the indexed dataclass."""
+        self._add_record("Enrollment", data)
+        return self.enrollments_by_id[data["_id"]]
+
+    def add_lesson_progress(self, data: dict[str, Any]) -> LessonProgress:
+        """Persist a new lesson progress record and return the indexed dataclass."""
+        self._add_record("LessonProgress", data)
+        return self.lesson_progress_by_id[data["_id"]]
+
+    def add_module_progress(self, data: dict[str, Any]) -> ModuleProgress:
+        """Persist a new module progress record and return the indexed dataclass."""
+        self._add_record("ModuleProgress", data)
+        return self.module_progress_by_id[data["_id"]]
+
+    def update_enrollment(self, data: dict[str, Any]) -> Enrollment:
+        """Update an existing enrollment record and return the indexed dataclass."""
+        self._update_record("Enrollment", data)
+        return self.enrollments_by_id[data["_id"]]
+
+    def update_module_progress(self, data: dict[str, Any]) -> ModuleProgress:
+        """Update an existing module progress record and return the indexed dataclass."""
+        self._update_record("ModuleProgress", data)
+        return self.module_progress_by_id[data["_id"]]

@@ -1,9 +1,11 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional
 
-from ..models import (AdminProfile, Course, Enrollment, InstructorProfile,
-                     Lesson, LessonProgress, Module, ModuleProgress,
-                     StudentProfile, User)
+from models.models import (
+    AdminProfile, Course, Enrollment, InstructorProfile,
+    Lesson, LessonProgress, Module, ModuleProgress,
+    StudentProfile, User,
+)
 
 # Inherit from the respective repository and implement them
 
@@ -101,6 +103,12 @@ class IEnrollmentRepository(ABC):
     @abstractmethod
     def list_by_course(self, course_id: str) -> List[Enrollment]: ...
 
+    @abstractmethod
+    def create(self, enrollment: Enrollment) -> Enrollment: ...
+
+    @abstractmethod
+    def update(self, enrollment: Enrollment) -> Enrollment: ...
+
 
 class ILessonProgressRepository(ABC):
 
@@ -119,6 +127,9 @@ class ILessonProgressRepository(ABC):
     def list_by_user_and_module(self, user_id: str,
                                 module_id: str) -> List[LessonProgress]: ...
 
+    @abstractmethod
+    def create(self, progress: LessonProgress) -> LessonProgress: ...
+
 
 class IModuleProgressRepository(ABC):
 
@@ -132,3 +143,9 @@ class IModuleProgressRepository(ABC):
     @abstractmethod
     def list_by_user_and_course(self, user_id: str,
                                 course_id: str) -> List[ModuleProgress]: ...
+
+    @abstractmethod
+    def create(self, progress: ModuleProgress) -> ModuleProgress: ...
+
+    @abstractmethod
+    def update(self, progress: ModuleProgress) -> ModuleProgress: ...

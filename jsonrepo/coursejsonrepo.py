@@ -2,10 +2,11 @@ from __future__ import annotations
 
 from typing import Optional
 
-from ..dal.abstractdal import (ICourseRepository, ILessonRepository,
-                           IModuleRepository)
-from ..models import Course, Lesson, Module
-from ..store.json_store import JsonStore
+from dal.abstractdal import (
+    ICourseRepository, ILessonRepository, IModuleRepository,
+)
+from models.models import Course, Lesson, Module
+from store.json_store import JsonStore
 
 
 class JsonCourseRepository(ICourseRepository):

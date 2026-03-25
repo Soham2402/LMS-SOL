@@ -1,14 +1,15 @@
 from __future__ import annotations
 
+from dataclasses import asdict
 from typing import Optional
 
-from ..dal.abstractdal import (
+from dal.abstractdal import (
     IEnrollmentRepository,
     ILessonProgressRepository,
     IModuleProgressRepository,
 )
-from ..models import Enrollment, LessonProgress, ModuleProgress
-from ..store.json_store import JsonStore
+from models.models import Enrollment, LessonProgress, ModuleProgress
+from store.json_store import JsonStore
 
 
 class JsonEnrollmentRepository(IEnrollmentRepository):
@@ -30,6 +31,12 @@ class JsonEnrollmentRepository(IEnrollmentRepository):
 
     def list_by_course(self, course_id: str) -> list[Enrollment]:
         return self._store.enrollments_by_course_id.get(course_id, [])
+
+    def create(self, enrollment: Enrollment) -> Enrollment:
+        return self._store.add_enrollment(asdict(enrollment))
+
+    def update(self, enrollment: Enrollment) -> Enrollment:
+        return self._store.update_enrollment(asdict(enrollment))
 
 
 class JsonLessonProgressRepository(ILessonProgressRepository):
@@ -55,6 +62,9 @@ class JsonLessonProgressRepository(ILessonProgressRepository):
     ) -> list[LessonProgress]:
         return self._store.lesson_progress_by_user_module.get((user_id, module_id), [])
 
+    def create(self, progress: LessonProgress) -> LessonProgress:
+        return self._store.add_lesson_progress(asdict(progress))
+
 
 class JsonModuleProgressRepository(IModuleProgressRepository):
 
@@ -73,3 +83,9 @@ class JsonModuleProgressRepository(IModuleProgressRepository):
         self, user_id: str, course_id: str
     ) -> list[ModuleProgress]:
         return self._store.module_progress_by_user_course.get((user_id, course_id), [])
+
+    def create(self, progress: ModuleProgress) -> ModuleProgress:
+        return self._store.add_module_progress(asdict(progress))
+
+    def update(self, progress: ModuleProgress) -> ModuleProgress:
+        return self._store.update_module_progress(asdict(progress))

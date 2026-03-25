@@ -2,11 +2,14 @@ from __future__ import annotations
 
 from typing import Optional
 
-from ..dal.abstractdal import (IAdminProfileRepository,
-                           IInstructorProfileRepository,
-                           IStudentProfileRepository, IUserRepository)
-from ..models import AdminProfile, InstructorProfile, StudentProfile, User
-from ..store.json_store import JsonStore
+from dal.abstractdal import (
+    IAdminProfileRepository, IInstructorProfileRepository,
+    IStudentProfileRepository, IUserRepository,
+)
+from models.models import (
+    AdminProfile, InstructorProfile, StudentProfile, User,
+)
+from store.json_store import JsonStore
 
 
 class JsonUserRepository(IUserRepository):
