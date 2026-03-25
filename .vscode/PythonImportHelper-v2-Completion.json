@@ -436,6 +436,14 @@
         "documentation": {}
     },
     {
+        "label": "LessonProgress",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
         "label": "Lesson",
         "importPath": "models.models",
         "description": "models.models",
@@ -794,6 +802,30 @@
         "documentation": {}
     },
     {
+        "label": "DataAccessLayer",
+        "importPath": "dal.dalmain",
+        "description": "dal.dalmain",
+        "isExtraImport": true,
+        "detail": "dal.dalmain",
+        "documentation": {}
+    },
+    {
+        "label": "DataAccessLayer",
+        "importPath": "dal.dalmain",
+        "description": "dal.dalmain",
+        "isExtraImport": true,
+        "detail": "dal.dalmain",
+        "documentation": {}
+    },
+    {
+        "label": "DataAccessLayer",
+        "importPath": "dal.dalmain",
+        "description": "dal.dalmain",
+        "isExtraImport": true,
+        "detail": "dal.dalmain",
+        "documentation": {}
+    },
+    {
         "label": "app",
         "importPath": "main",
         "description": "main",
@@ -802,27 +834,139 @@
         "documentation": {}
     },
     {
-        "label": "DataAccessLayer",
-        "importPath": "dal.dalmain",
-        "description": "dal.dalmain",
+        "label": "load_raw",
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
         "isExtraImport": true,
-        "detail": "dal.dalmain",
+        "detail": "tests.conftest",
         "documentation": {}
     },
     {
-        "label": "DataAccessLayer",
-        "importPath": "dal.dalmain",
-        "description": "dal.dalmain",
+        "label": "load_raw",
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
         "isExtraImport": true,
-        "detail": "dal.dalmain",
+        "detail": "tests.conftest",
         "documentation": {}
     },
     {
-        "label": "DataAccessLayer",
-        "importPath": "dal.dalmain",
-        "description": "dal.dalmain",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "dal.dalmain",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "_determine_status",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "recalculate_course_progress",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "recalculate_module_progress",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "recalculate_progress_from_lesson",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "recalculate_course_progress",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "recalculate_progress_from_lesson",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
         "documentation": {}
     },
     {
@@ -874,54 +1018,6 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "uuid4",
-        "importPath": "uuid",
-        "description": "uuid",
-        "isExtraImport": true,
-        "detail": "uuid",
-        "documentation": {}
-    },
-    {
-        "label": "uuid4",
-        "importPath": "uuid",
-        "description": "uuid",
-        "isExtraImport": true,
-        "detail": "uuid",
-        "documentation": {}
-    },
-    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -951,22 +1047,6 @@
         "description": "pydantic",
         "isExtraImport": true,
         "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "recalculate_course_progress",
-        "importPath": "utils",
-        "description": "utils",
-        "isExtraImport": true,
-        "detail": "utils",
-        "documentation": {}
-    },
-    {
-        "label": "recalculate_progress_from_lesson",
-        "importPath": "utils",
-        "description": "utils",
-        "isExtraImport": true,
-        "detail": "utils",
         "documentation": {}
     },
     {
@@ -1384,11 +1464,65 @@
         "documentation": {}
     },
     {
+        "label": "mock_data_path",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def mock_data_path():\n    \"\"\"\n    Create a temp copy of mock_data.json so tests don't mutate\n    the real file. Yields the temp path, cleans up after.\n    \"\"\"\n    src = Path(__file__).resolve().parent.parent / \"mock_data.json\"\n    tmp = tempfile.NamedTemporaryFile(\n        suffix=\".json\", delete=False,\n    )\n    shutil.copy(src, tmp.name)",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def client(mock_data_path):\n    \"\"\"FastAPI TestClient wired to a DAL backed by the temp JSON.\"\"\"\n    store = JsonStore(path=mock_data_path)\n    dal = DataAccessLayer.from_json(store=store)\n    app.state.dal = dal\n    return TestClient(app)\n@pytest.fixture()\ndef dal(mock_data_path):\n    \"\"\"Bare DAL instance for unit-testing utils without HTTP.\"\"\"\n    store = JsonStore(path=mock_data_path)",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "dal",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def dal(mock_data_path):\n    \"\"\"Bare DAL instance for unit-testing utils without HTTP.\"\"\"\n    store = JsonStore(path=mock_data_path)\n    return DataAccessLayer.from_json(store=store)\ndef load_raw(mock_data_path: str) -> dict:\n    \"\"\"Read the raw JSON dict from the temp mock file.\"\"\"\n    return json.loads(Path(mock_data_path).read_text())",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "load_raw",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def load_raw(mock_data_path: str) -> dict:\n    \"\"\"Read the raw JSON dict from the temp mock file.\"\"\"\n    return json.loads(Path(mock_data_path).read_text())",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "TestCreateEnrollment",
+        "kind": 6,
+        "importPath": "tests.test_enrollment",
+        "description": "tests.test_enrollment",
+        "peekOfCode": "class TestCreateEnrollment:\n    def test_enroll_user_in_course(self, client, mock_data_path):\n        raw = load_raw(mock_data_path)\n        user_id = raw[\"Users\"][0][\"_id\"]\n        course_id = raw[\"Courses\"][0][\"_id\"]\n        course_total = raw[\"Courses\"][0][\"total_lessons\"]\n        existing = raw[\"Enrollment\"]\n        already_enrolled = any(\n            e[\"user_id\"] == user_id and e[\"course_id\"] == course_id\n            for e in existing",
+        "detail": "tests.test_enrollment",
+        "documentation": {}
+    },
+    {
+        "label": "TestListEnrollments",
+        "kind": 6,
+        "importPath": "tests.test_enrollment",
+        "description": "tests.test_enrollment",
+        "peekOfCode": "class TestListEnrollments:\n    def test_list_enrollments_for_enrolled_user(\n        self, client, mock_data_path,\n    ):\n        raw = load_raw(mock_data_path)\n        enroll = raw[\"Enrollment\"][0]\n        resp = client.get(f\"/enrollments/{enroll['user_id']}\")\n        assert resp.status_code == 200\n        data = resp.json()\n        assert len(data) >= 1",
+        "detail": "tests.test_enrollment",
+        "documentation": {}
+    },
+    {
         "label": "TestUpsertLessonProgress",
         "kind": 6,
         "importPath": "tests.test_lesson_progress_endpoint",
         "description": "tests.test_lesson_progress_endpoint",
-        "peekOfCode": "class TestUpsertLessonProgress:\n    def test_create_video_progress(\n        self, client, mock_data_path,\n    ):\n        lesson = _find_video_lesson(mock_data_path)\n        if lesson is None:\n            pytest.skip(\"No VideoLesson in enrolled course\")\n        enroll = _first_enrollment(mock_data_path)\n        resp = client.post(\"/progress/lesson\", json={\n            \"user_id\": enroll[\"user_id\"],",
+        "peekOfCode": "class TestUpsertLessonProgress:\n    def test_create_video_progress(\n        self, client, mock_data_path,\n    ):\n        lesson = _find_lesson_by_type(mock_data_path, \"VideoLesson\")\n        if lesson is None:\n            pytest.skip(\"No VideoLesson in enrolled course\")\n        enroll = _first_enrollment(mock_data_path)\n        resp = client.post(\"/progress/lesson\", json={\n            \"user_id\": enroll[\"user_id\"],",
         "detail": "tests.test_lesson_progress_endpoint",
         "documentation": {}
     },
@@ -1397,26 +1531,44 @@
         "kind": 6,
         "importPath": "tests.test_lesson_progress_endpoint",
         "description": "tests.test_lesson_progress_endpoint",
-        "peekOfCode": "class TestCascadeOnCompletion:\n    def test_no_cascade_on_partial_progress(\n        self, client, mock_data_path,\n    ):\n        lesson = _find_video_lesson(mock_data_path)\n        if lesson is None:\n            pytest.skip(\"No VideoLesson in enrolled course\")\n        enroll = _first_enrollment(mock_data_path)\n        duration = lesson[\"meta_data\"].get(\"duration\", 100)\n        before = client.get(",
+        "peekOfCode": "class TestCascadeOnCompletion:\n    def test_no_cascade_on_partial_progress(\n        self, client, mock_data_path,\n    ):\n        lesson = _find_lesson_by_type(mock_data_path, \"VideoLesson\")\n        if lesson is None:\n            pytest.skip(\"No VideoLesson in enrolled course\")\n        enroll = _first_enrollment(mock_data_path)\n        duration = lesson[\"meta_data\"].get(\"duration\", 100)\n        before = client.get(",
         "detail": "tests.test_lesson_progress_endpoint",
         "documentation": {}
     },
     {
-        "label": "mock_data_path",
-        "kind": 2,
-        "importPath": "tests.test_lesson_progress_endpoint",
-        "description": "tests.test_lesson_progress_endpoint",
-        "peekOfCode": "def mock_data_path():\n    \"\"\"\n    Create a temp copy of mock_data.json so tests don't mutate\n    the real file.  Yields the temp path, cleans up after.\n    \"\"\"\n    src = Path(__file__).resolve().parent.parent / \"mock_data.json\"\n    tmp = tempfile.NamedTemporaryFile(\n        suffix=\".json\", delete=False,\n    )\n    shutil.copy(src, tmp.name)",
-        "detail": "tests.test_lesson_progress_endpoint",
+        "label": "TestDetermineStatus",
+        "kind": 6,
+        "importPath": "tests.test_progress_calculation",
+        "description": "tests.test_progress_calculation",
+        "peekOfCode": "class TestDetermineStatus:\n    def test_all_completed(self):\n        assert _determine_status(4, 4) == \"completed\"\n    def test_some_completed(self):\n        assert _determine_status(2, 4) == \"in_progress\"\n    def test_one_completed(self):\n        assert _determine_status(1, 10) == \"in_progress\"\n    def test_none_completed(self):\n        assert _determine_status(0, 4) == \"not_started\"\n    def test_zero_total_zero_completed(self):",
+        "detail": "tests.test_progress_calculation",
         "documentation": {}
     },
     {
-        "label": "client",
-        "kind": 2,
-        "importPath": "tests.test_lesson_progress_endpoint",
-        "description": "tests.test_lesson_progress_endpoint",
-        "peekOfCode": "def client(mock_data_path):\n    \"\"\"\n    FastAPI TestClient wired to a DAL backed by the temp JSON.\n    \"\"\"\n    store = JsonStore(path=mock_data_path)\n    dal = DataAccessLayer.from_json(store=store)\n    app.state.dal = dal\n    return TestClient(app)\ndef _first_enrollment(mock_data_path: str) -> dict:\n    \"\"\"Return the first enrollment from the mock data.\"\"\"",
-        "detail": "tests.test_lesson_progress_endpoint",
+        "label": "TestRecalculateModuleProgress",
+        "kind": 6,
+        "importPath": "tests.test_progress_calculation",
+        "description": "tests.test_progress_calculation",
+        "peekOfCode": "class TestRecalculateModuleProgress:\n    def test_module_with_all_lessons_completed(self, dal):\n        \"\"\"\n        module_1 has lesson_1 and lesson_2.\n        Mock data already has both completed for user_1.\n        Recalculation should yield 100%.\n        \"\"\"\n        mp = recalculate_module_progress(\n            dal, \"user_1\", \"course_1\", \"module_1\",\n        )",
+        "detail": "tests.test_progress_calculation",
+        "documentation": {}
+    },
+    {
+        "label": "TestRecalculateCourseProgress",
+        "kind": 6,
+        "importPath": "tests.test_progress_calculation",
+        "description": "tests.test_progress_calculation",
+        "peekOfCode": "class TestRecalculateCourseProgress:\n    def test_updates_enrollment_completed_count(self, dal):\n        \"\"\"\n        user_1 has 2 completed lessons out of 5 total in\n        course_1. Enrollment should reflect 2/5 = 40%.\n        \"\"\"\n        recalculate_course_progress(\n            dal, \"user_1\", \"course_1\",\n        )\n        enrollment = dal.enrollments.get_by_user_and_course(",
+        "detail": "tests.test_progress_calculation",
+        "documentation": {}
+    },
+    {
+        "label": "TestRecalculateProgressFromLesson",
+        "kind": 6,
+        "importPath": "tests.test_progress_calculation",
+        "description": "tests.test_progress_calculation",
+        "peekOfCode": "class TestRecalculateProgressFromLesson:\n    def test_full_cascade_updates_module_and_enrollment(\n        self, dal,\n    ):\n        \"\"\"\n        Complete lesson_4 in module_2, then run the full\n        cascade. Both module_2 progress and the enrollment\n        should update.\n        \"\"\"\n        _complete_lesson(",
+        "detail": "tests.test_progress_calculation",
         "documentation": {}
     },
     {

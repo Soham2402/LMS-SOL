@@ -1,84 +1,26 @@
 """Tests for the lesson progress upsert endpoint and cascade behavior."""
 
-import json
-import shutil
-import tempfile
-from pathlib import Path
-
 import pytest
-from fastapi.testclient import TestClient
 
-from main import app
-from store.json_store import JsonStore
-from dal.dalmain import DataAccessLayer
-
-
-@pytest.fixture()
-def mock_data_path():
-    """
-    Create a temp copy of mock_data.json so tests don't mutate
-    the real file.  Yields the temp path, cleans up after.
-    """
-    src = Path(__file__).resolve().parent.parent / "mock_data.json"
-    tmp = tempfile.NamedTemporaryFile(
-        suffix=".json", delete=False,
-    )
-    shutil.copy(src, tmp.name)
-    tmp.close()
-    yield tmp.name
-    Path(tmp.name).unlink(missing_ok=True)
-
-
-@pytest.fixture()
-def client(mock_data_path):
-    """
-    FastAPI TestClient wired to a DAL backed by the temp JSON.
-    """
-    store = JsonStore(path=mock_data_path)
-    dal = DataAccessLayer.from_json(store=store)
-    app.state.dal = dal
-    return TestClient(app)
+from tests.conftest import load_raw
 
 
 def _first_enrollment(mock_data_path: str) -> dict:
     """Return the first enrollment from the mock data."""
-    raw = json.loads(Path(mock_data_path).read_text())
-    return raw["Enrollment"][0]
+    return load_raw(mock_data_path)["Enrollment"][0]
 
 
-def _find_video_lesson(mock_data_path: str) -> dict | None:
-    """Return a VideoLesson that belongs to a course with enrollments."""
-    raw = json.loads(Path(mock_data_path).read_text())
-    enrolled_courses = {e["course_id"] for e in raw["Enrollment"]}
+def _find_lesson_by_type(
+    mock_data_path: str, lesson_type: str,
+) -> dict | None:
+    """Return a lesson of the given type from an enrolled course."""
+    raw = load_raw(mock_data_path)
+    enrolled_courses = {
+        e["course_id"] for e in raw["Enrollment"]
+    }
     for lesson in raw["Lessons"]:
         if (
-            lesson["lesson_type"] == "VideoLesson"
-            and lesson["course_id"] in enrolled_courses
-        ):
-            return lesson
-    return None
-
-
-def _find_article_lesson(mock_data_path: str) -> dict | None:
-    """Return an ArticleLesson from an enrolled course."""
-    raw = json.loads(Path(mock_data_path).read_text())
-    enrolled_courses = {e["course_id"] for e in raw["Enrollment"]}
-    for lesson in raw["Lessons"]:
-        if (
-            lesson["lesson_type"] == "ArticleLesson"
-            and lesson["course_id"] in enrolled_courses
-        ):
-            return lesson
-    return None
-
-
-def _find_quiz_lesson(mock_data_path: str) -> dict | None:
-    """Return a QuizLesson from an enrolled course."""
-    raw = json.loads(Path(mock_data_path).read_text())
-    enrolled_courses = {e["course_id"] for e in raw["Enrollment"]}
-    for lesson in raw["Lessons"]:
-        if (
-            lesson["lesson_type"] == "QuizLesson"
+            lesson["lesson_type"] == lesson_type
             and lesson["course_id"] in enrolled_courses
         ):
             return lesson
@@ -90,7 +32,7 @@ class TestUpsertLessonProgress:
     def test_create_video_progress(
         self, client, mock_data_path,
     ):
-        lesson = _find_video_lesson(mock_data_path)
+        lesson = _find_lesson_by_type(mock_data_path, "VideoLesson")
         if lesson is None:
             pytest.skip("No VideoLesson in enrolled course")
 
@@ -111,7 +53,7 @@ class TestUpsertLessonProgress:
     def test_upsert_updates_existing(
         self, client, mock_data_path,
     ):
-        lesson = _find_video_lesson(mock_data_path)
+        lesson = _find_lesson_by_type(mock_data_path, "VideoLesson")
         if lesson is None:
             pytest.skip("No VideoLesson in enrolled course")
 
@@ -139,7 +81,9 @@ class TestUpsertLessonProgress:
     def test_create_article_progress(
         self, client, mock_data_path,
     ):
-        lesson = _find_article_lesson(mock_data_path)
+        lesson = _find_lesson_by_type(
+            mock_data_path, "ArticleLesson",
+        )
         if lesson is None:
             pytest.skip("No ArticleLesson in enrolled course")
 
@@ -159,7 +103,9 @@ class TestUpsertLessonProgress:
     def test_create_quiz_progress_completed(
         self, client, mock_data_path,
     ):
-        lesson = _find_quiz_lesson(mock_data_path)
+        lesson = _find_lesson_by_type(
+            mock_data_path, "QuizLesson",
+        )
         if lesson is None:
             pytest.skip("No QuizLesson in enrolled course")
 
@@ -179,7 +125,7 @@ class TestUpsertLessonProgress:
     def test_missing_required_field_returns_422(
         self, client, mock_data_path,
     ):
-        lesson = _find_video_lesson(mock_data_path)
+        lesson = _find_lesson_by_type(mock_data_path, "VideoLesson")
         if lesson is None:
             pytest.skip("No VideoLesson in enrolled course")
 
@@ -224,7 +170,7 @@ class TestCascadeOnCompletion:
     def test_no_cascade_on_partial_progress(
         self, client, mock_data_path,
     ):
-        lesson = _find_video_lesson(mock_data_path)
+        lesson = _find_lesson_by_type(mock_data_path, "VideoLesson")
         if lesson is None:
             pytest.skip("No VideoLesson in enrolled course")
 
@@ -254,7 +200,7 @@ class TestCascadeOnCompletion:
     def test_cascade_triggers_on_completion(
         self, client, mock_data_path,
     ):
-        lesson = _find_video_lesson(mock_data_path)
+        lesson = _find_lesson_by_type(mock_data_path, "VideoLesson")
         if lesson is None:
             pytest.skip("No VideoLesson in enrolled course")
 
