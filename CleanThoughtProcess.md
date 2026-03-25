@@ -1,5 +1,3 @@
----
-
 # Project Design: Modular LMS
 
 ## 1. Vision & Core Objectives
