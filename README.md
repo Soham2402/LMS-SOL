@@ -1,5 +1,5 @@
 # LMS — Learning Management System
-
+### Please read CleanThoughtProcess.md for my entire thought process and Roughplan.md for my thinking path
 A Udemy-style backend built with **FastAPI** and a JSON-file data store, focused on
 clean abstractions (repository-pattern DAL) and extensible progress tracking
 (strategy-pattern calculators per lesson type).
